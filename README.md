@@ -6,13 +6,14 @@ To use the scripts you will need:
 1. The [NSIS compiler](http://nsis.sourceforge.net/Download)
 2. The [NRPE-NT daemon](http://sourceforge.net/projects/nrpent/) - tested with version 0.8b
 3. The [Basic NRPE_NT Plugins](http://exchange.nagios.org/directory/Plugins/Uncategorized/Operating-Systems/Windows-NRPE/Basic-NRPE_NT-Plugins/details)
+4. The [check_disk.vbs](http://exchange.nagios.org/directory/Plugins/Uncategorized/Operating-Systems/Windows-NRPE/Check-free-disk-space/details) plugin
 
 ## Instructions
 
 1. Install the NSIS compiler
 2. Unzip the NRPE-NT daemon
 3. Unzip the Basic NRPE_NT Plugins
-4. Copy the .nsi files in this repo to the parent directory of where you unzip'd the NRPE-NT daemon and the plugins and compile each one
+4. Copy the .nsi files in this repo and the check_disk.vbs script to the parent directory of where you unzip'd the NRPE-NT daemon and the plugins and compile each one
 
 This should give you two .exe installers which you can then run to install the NRPE daemon and the basic plugins.
 
